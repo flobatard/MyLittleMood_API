@@ -1,0 +1,22 @@
+{
+  "name": "my-little-mood",
+  "version": "1.0.0",
+  "description": "Little API to share your mood",
+  "main": "www.js",
+  "scripts": {
+    "start": "node www.js",
+    "start:dev": "nodemon ./www.js localhost 3080",
+    "test": "test"
+  },
+  "private": true,
+  "author": "fbatar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^4.13.0"
+  }
+}
